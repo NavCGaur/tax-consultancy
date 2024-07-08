@@ -1,0 +1,105 @@
+.home{
+    display: flex;
+    min-height: 80vh;
+    justify-content: center;
+
+}
+
+.home__leftSection, .home__rightSection{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+}
+
+.home__leftSection h1{
+    padding-top: 72px;
+    line-height: 45px;
+}
+
+.home__leftSection h1::first-line{
+    color:#336BFA;
+}
+
+.home__leftSection p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+.home__icon{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.home__iconContainer{
+    margin-top: 20px;
+    display: flex;
+    }
+
+.home__iconContainer h3{
+    font-weight: 700;
+    color: #123faf;
+}
+
+.home__leftButton, .home__rightButton{  
+    height: 50px;
+    width: 230px;
+    margin-top: 30px;
+    background-color: #336BFA;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.home__rightSection{
+    position: relative;
+}
+
+.home__testimonial-image{
+    height: 150px;
+    width: 150px;
+    margin-left: 55px;
+    margin-top: 100px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.home__groupReviewImage{
+    margin-top: 30px;
+    height: 100px;
+    width: 270px;
+}
+
+.home__reviewButtonWrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home__testimonial-text{
+    color: white;
+    background-color: #336BFA;
+    font-size: 15px;
+    margin-top: 215px;
+    border-radius: 15px;
+    line-height: 20px;
+}
+
+.home__testimonial-text p{
+    margin: 15px 20px;
+    text-align: left;
+
+}
+
+.home__starGroup{
+    margin-left: 200px;
+}
+
+.home__star{
+    height: 30px;
+    width: 30px;
+}
+

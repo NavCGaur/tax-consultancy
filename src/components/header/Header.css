@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    height: 115px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px gray ;
+
+    
+    }
+.header__logoWrapper{
+    width: 38%;
+}
+
+.header__logo{
+    font-size: 36px;
+    color: #336BFA;
+    font-weight: bold;
+    height: 78px;
+    width: 209px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9D9D9;
+
+}
+
+.header__navbar{    
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.header__home, .header__about, .header__services{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    text-wrap:nowrap;
+ }
+
+.header__contactButton{
+    background-color: #336BFA;
+    width: 120px;
+    height: 43px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap:nowrap;
+
+}
+

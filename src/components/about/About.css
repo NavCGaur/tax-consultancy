@@ -1,0 +1,21 @@
+.about{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about__leftSection, .about__rightSection{
+    width: 38%;
+    margin-top: 100px;
+}
+
+.about__leftSection h1{
+    line-height: 45px ;
+    margin-bottom: 50px;
+}
+
+.about__leftSection p{
+    line-height: 25px ;
+    margin-bottom: 50px;
+}
+
