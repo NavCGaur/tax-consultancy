@@ -2,8 +2,22 @@
     display: flex;
     min-height: 80vh;
     justify-content: center;
+    align-items: center;
+    position: relative;
 
 }
+
+.home::before{
+    position: absolute;
+    content: '';
+    background-color: rgba(225, 224, 224, 0.867);
+    width: 85%;
+    height: 95%;
+    z-index: -1;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
 
 .home__leftSection, .home__rightSection{
     display: flex;
@@ -71,12 +85,18 @@
     margin-top: 30px;
     height: 100px;
     width: 270px;
+    border-radius: 15px;
 }
 
 .home__reviewButtonWrapper{
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.home__rightButton{
+    margin-top: 70px;
+    width: 250px;
 }
 
 .home__testimonial-text{

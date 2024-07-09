@@ -31,7 +31,9 @@ function Services() {
 
         </div>
 
-            <a href='#' className='services__button'>Find out more</a>
+            {/*<a href='#' className='services__button'>Find out more</a>*/}
+
+        <div className='services__background'></div>
 
 
     </div>

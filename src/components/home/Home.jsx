@@ -72,15 +72,3 @@ function Home() {
 }
 
 export default Home
-
-
-/*
-   <div className='home__leftBbutton'>
-                <button className='home__leftButton-text' aria-label='Get '>
-                  Get Personalized Advice
-                </button>
-            </div>
-
-
-
-*/

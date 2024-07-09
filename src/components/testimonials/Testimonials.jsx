@@ -4,6 +4,8 @@ import './Testimonials.css'
 import {ReactComponent as Star} from '../../assets/star.svg'
 import {ReactComponent as ArrowLeft} from '../../assets/arrow-left.svg'
 import {ReactComponent as ArrowRight} from '../../assets/arrow-right.svg'
+import {ReactComponent as Circle} from '../../assets/circle.svg'
+import {ReactComponent as CircleDot} from '../../assets/circle-dot.svg'
 
 
 import testimonialsData from './data';
@@ -32,9 +34,11 @@ function Testimonials() {
 
   return (
     <div className='testimonials' id='testimonials'>
+
         <ArrowLeft className='testimonials__arrowLeft' onClick={previousTestimonialHandler}/>
         <ArrowRight className='testimonials__arrowRight' onClick={nextTestimonialHandler}/>
 
+        
         <h1 className='testimonials__title'>Customer Testimonials</h1>
         <div className='testimonials__cardWrapper'  >
             <div className='testimonials__cardInnerWrapper'style={{translate:`${(-testimonialIndex*(100/length))}%`}}>
@@ -58,6 +62,15 @@ function Testimonials() {
                 </div>)}
             </div>
         </div>    
+
+
+        <div className='testimonials__circleWrapper'>
+            {testimonials.map((_, index)=> index===testimonialIndex?  <CircleDot className = 'testimonials__circleDot' />
+                                            : <Circle className = 'testimonials__circle' />
+
+             )}
+        </div>
+    
 
 
        
