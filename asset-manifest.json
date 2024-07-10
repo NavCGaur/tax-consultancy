@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tax-consultancy/static/css/main.ff5f0c07.css",
+    "main.css": "/tax-consultancy/static/css/main.98d75fe9.css",
     "main.js": "/tax-consultancy/static/js/main.b754499e.js",
     "static/js/453.01572cd0.chunk.js": "/tax-consultancy/static/js/453.01572cd0.chunk.js",
     "static/media/testimonial-man-2.jpg": "/tax-consultancy/static/media/testimonial-man-2.b10b4d42f19e37323051.jpg",
@@ -17,12 +17,12 @@
     "static/media/menu.svg": "/tax-consultancy/static/media/menu.4ada9cff8def51a13630540467bf0937.svg",
     "static/media/circle-dot.svg": "/tax-consultancy/static/media/circle-dot.3f673682b11103ca0d81effab86a6785.svg",
     "static/media/circle.svg": "/tax-consultancy/static/media/circle.9cf3c396e7aa8dbcc04eaac70a110f39.svg",
-    "main.ff5f0c07.css.map": "/tax-consultancy/static/css/main.ff5f0c07.css.map",
+    "main.98d75fe9.css.map": "/tax-consultancy/static/css/main.98d75fe9.css.map",
     "main.b754499e.js.map": "/tax-consultancy/static/js/main.b754499e.js.map",
     "453.01572cd0.chunk.js.map": "/tax-consultancy/static/js/453.01572cd0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ff5f0c07.css",
+    "static/css/main.98d75fe9.css",
     "static/js/main.b754499e.js"
   ]
 }
