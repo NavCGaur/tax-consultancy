@@ -5,8 +5,7 @@ function Services() {
   return (
     <div className='services' id='services'>
         <div className='services__title'>
-            <h1>&nbsp;&nbsp;Expert Tax Planning Services <br />for 
-            Individuals and Businesses</h1>
+            <h1>SERVICES   </h1>
         </div>
 
         <div className='services__paraWrapper'>
@@ -15,7 +14,7 @@ function Services() {
                 <p>Our tax consultancy offers comprehensive 
                 services including tax planning, filing ITR, 
                 and capital gains tax assistance.
-                </p>
+                </p>    
             </div>
             <div className='services__para'>
                 <h3>Capital Gains Tax <br />

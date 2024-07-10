@@ -5,10 +5,11 @@ function About() {
   return (
     <div className='about' id='about'>
         <div className='about__leftSection'>
-            <h1> Expert Tax Consultancy <br />  Services for Efficient Tax <br /> Planning and Filing</h1>
-            <p> Welcome to “Company Name”, where we provide <br /> expert tax consultancy services tailored to meet <br />your unique needs. <br /> <br />
+            <h1>ABOUT US</h1>
+            <h2> Expert Tax Consultancy Services for Efficient Tax Planning and Filing</h2>
+            <p> Welcome to “Company Name”, where we provide expert tax consultancy services tailored to meet your unique needs. <br /> <br />
 
-                Our mission is to simplify the complexities of taxation, <br /> ensuring our clients achieve maximum efficiency and <br /> compliance.
+                Our mission is to simplify the complexities of taxation, ensuring our clients achieve maximum efficiency and compliance.
             </p>
         </div>
 

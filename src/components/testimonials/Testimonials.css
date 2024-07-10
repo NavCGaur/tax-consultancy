@@ -4,6 +4,7 @@
     align-items: center;
     min-height: 100vh;
     position: relative;
+    justify-content: center;
 }
 
 
@@ -20,8 +21,7 @@
 
 
 .testimonials__title{
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .testimonials__arrowLeft, .testimonials__arrowRight{
@@ -33,13 +33,13 @@
 }
 
 .testimonials__arrowLeft{
-    top: 50%;
-    left: 150px;
+    top: 40%;
+    left: 10%;
 }
 
 .testimonials__arrowRight{
-    top: 50%;
-    right: 150px;
+    top: 40%;
+    right: 10%;
 }
 .testimonials__circleWrapper{
     margin-top: 30px;    
@@ -68,7 +68,7 @@
 
 
 .testimonials__card{
-    min-width: 500px;
+    width: 500px;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -104,4 +104,101 @@
 
 .testimonials__starGroup{
     padding: 10px 0;
+}
+
+@media (min-width:1650px){
+
+    .testimonials__title{
+    font-size: 3rem;
+
+    }
+    .testimonials__cardWrapper{
+        width: 600px;
+           
+    }
+    .testimonials__card{
+        width: 600px;
+       
+    
+    } 
+
+    .testimonials__text{
+        font-size: 1.5rem;
+        line-height: 35px;
+        padding: 30px ;
+      
+
+    }
+
+    .testimonials__image{
+        height: 175px;
+        width: 175px;
+       
+    }
+
+    .testimonials__arrowLeft{
+        left: 200px;
+        height: 60px;
+        width: 60px;
+    }
+    
+    .testimonials__arrowRight{
+        right: 200px;
+        height: 60px;
+        width: 60px;
+    }
+    
+    .testimonials__circle, .testimonials__circleDot{
+        height: 30px;
+        width: 30px;
+        margin-right: 10px;
+    }
+
+
+}
+
+@media (max-width:950px){
+  
+    .testimonials__title{
+        font-size: 2rem;
+    
+        }
+
+    .testimonials__card{
+        width: 400px;
+    }
+    .testimonials__cardWrapper{
+        width: 400px;
+    }
+
+   
+    
+}
+
+@media (max-width:600px){
+
+    .testimonials__title{
+        
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    
+
+    .testimonials__card{
+        width: 250px;
+        text-align: left;
+    }
+    .testimonials__cardWrapper{
+        width: 250px;
+    }
+
+    .testimonials__text{
+        font-size: 0.8rem;
+        line-height: 25px;
+        padding: 10px ;
+      
+
+    }
+
+
 }

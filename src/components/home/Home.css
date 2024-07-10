@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    column-gap: 20px;
 
 }
 
@@ -35,8 +36,9 @@
 }
 
 .home__leftSection p{
+    max-width: 350px  ;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 
@@ -97,15 +99,17 @@
 .home__rightButton{
     margin-top: 70px;
     width: 250px;
+    text-align: center;
 }
 
 .home__testimonial-text{
     color: white;
     background-color: #336BFA;
-    font-size: 15px;
+    font-size: 0.8rem;
     margin-top: 215px;
     border-radius: 15px;
     line-height: 20px;
+    max-width: 550px;
 }
 
 .home__testimonial-text p{
@@ -123,3 +127,104 @@
     width: 30px;
 }
 
+@media(min-width:1650px){
+    .home__leftSection h1{
+        line-height: 60px;
+        font-size: 3rem;
+
+       
+    }
+
+    .home__leftSection p{
+        max-width: 350px  ;
+        font-size: 1.5rem;
+    }
+
+    .home__iconContainer h3{
+        font-size: 1.6rem;
+    }
+
+    .home__testimonial-text p{
+       font-size: 1.3rem;
+       line-height: 35px;
+    
+    }
+
+    .home__groupReviewImage{
+        margin-top: 90px;
+        height: 150px;
+        width: 300px;
+        border-radius: 15px;
+    }
+
+
+    .home__rightButton{
+        margin-top: 170px;
+        font-size: 1.3rem;
+      
+    }
+
+
+}
+
+@media(max-width:950px){
+    .home__groupReviewImage{
+        display: none;
+
+    }
+
+    .home__rightButton{
+        margin-top: 50px;
+       
+    }
+
+    .home__starGroup{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+}
+
+@media(max-width:650px){
+    .home{
+        flex-direction: column;
+    }
+
+    .home__leftSection, .home__rightSection{
+        width: 70%;
+    }
+    
+    .home__leftSection h1{
+        padding-top: 40px;
+        line-height: 35px;
+    }
+    
+
+    .home__testimonial-image{
+       
+        margin-top: 50px;
+      
+    }
+
+    .home__testimonial-text{
+        margin-top: 165px;
+    }
+
+    .home__groupReviewImage {
+        margin-top: 0;
+    }
+
+    .home__reviewButtonWrapper{
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .home::before{
+ 
+        height: 100%;
+       
+    }
+
+    
+
+}

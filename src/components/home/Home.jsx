@@ -20,7 +20,7 @@ function Home() {
             <h1>
             Expert Tax < br />Consultancy Services < br/> for Your Needs
             </h1>
-            <p>Get personilzed tax planning, ITR filing, and capital<br />
+            <p>Get personilzed tax planning, ITR filing, and capital
             gains tax services to optimize your financial situation.</p>
 
             <div>

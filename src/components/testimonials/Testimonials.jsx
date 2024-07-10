@@ -39,7 +39,7 @@ function Testimonials() {
         <ArrowRight className='testimonials__arrowRight' onClick={nextTestimonialHandler}/>
 
         
-        <h1 className='testimonials__title'>Customer Testimonials</h1>
+        <h1 className='testimonials__title'>Testimonials</h1>
         <div className='testimonials__cardWrapper'  >
             <div className='testimonials__cardInnerWrapper'style={{translate:`${(-testimonialIndex*(100/length))}%`}}>
                 {testimonials.map((testimonial, index) =>
@@ -47,18 +47,18 @@ function Testimonials() {
 
                         <img src={testimonial.image} className='testimonials__image' alt='testimonial' ></img>       
 
-                    <div className='testimonials__text'>
-                        <div className='testimonials__starGroup'>
-                            <Star className='testimonials__star'/>
-                            <Star className='testimonials__star'/>
-                            <Star className='testimonials__star'/>
-                            <Star className='testimonials__star'/>
-                            <Star className='testimonials__star'/>
+                        <div className='testimonials__text'>
+                            <div className='testimonials__starGroup'>
+                                <Star className='testimonials__star'/>
+                                <Star className='testimonials__star'/>
+                                <Star className='testimonials__star'/>
+                                <Star className='testimonials__star'/>
+                                <Star className='testimonials__star'/>
+                            </div>
+
+                            <p >{testimonial.review}</p>
+
                         </div>
-
-                        <p >{testimonial.review}</p>
-
-                    </div>
                 </div>)}
             </div>
         </div>    

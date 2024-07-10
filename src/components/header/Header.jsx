@@ -1,9 +1,12 @@
 import React from 'react';
+
+import {ReactComponent as Menu} from '../../assets/menu.svg'
+
 import './Header.css';
 
 function Header() {
   return (
-    <div className='header'>
+    <header className='header'>
         <div className='header__logoWrapper'>
             <div className='header__logo'>
                 LOGO
@@ -29,8 +32,10 @@ function Header() {
           
         </nav>
 
+        <Menu  className='header__menu'/>
 
-    </div>
+
+    </header>
   )
 }
 
